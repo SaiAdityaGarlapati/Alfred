@@ -54,7 +54,6 @@ while True:
             single_line_edit.send_message(alert)
             firebase.put('/Commands','AlertPi',alert)
     prevts=newts
-    time.sleep(1)
-    print ":)"
+
 
 
